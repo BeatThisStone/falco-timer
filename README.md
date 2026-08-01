@@ -1,5 +1,7 @@
 # Wei Timer
 
+![Wei Timer logo](packaging/wei-timer.png)
+
 A GTK4 based independent training timer detector and daily carat tracker for Umamusume for Wayland and X11.
 
 The name Wei Timer (weitimer) comes from a portmaneau of "way" as in wayland and "wei", something a certain gen Z uma loves saying.
@@ -64,15 +66,16 @@ See the [.NET port](https://github.com/lunauii/wei-timer-dotnet).
 ## First-run setup
 
 1. **Timer region calibration**: click "Calibrate timer region..." in the app while the autorun timer's container is visible, then select something static like the Time Left area.
+
 ![Calibration Region](calibration.png)
+
 After this, just make sure you wait until you see what you calibrated it to before unfocusing from the game.
+
 2. **Process and window matching**: the default process name is `UmamusumePrettyDerby.exe`, matching the actual exe under GE-Proton. If your setup differs, find the real process name with:
    ```bash
    ps aux | grep -i uma
    ```
-   and update `game_process_name` in the config file to match.
-
-Config lives at `$XDG_CONFIG_HOME/wei-timer/config.json` (`~/.config/wei-timer/config.json` by default).
+   and update `game_process_name` in the config file to match. Config lives at `$XDG_CONFIG_HOME/wei-timer/config.json` (`~/.config/wei-timer/config.json` by default).
 
 ## Tray icon
 
