@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Wei Timer
+Comment=Independent training timer and carat tracker for Umamusume
+Exec=wei-timer
+Icon=wei-timer
+Terminal=false
+Categories=Utility;

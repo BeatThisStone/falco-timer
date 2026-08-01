@@ -1,0 +1,21 @@
+[project]
+name = "wei_timer"
+version = "0.1.1"
+description = "Independent training timer detector and carat tracker for Umamusume, for wlroots-based Wayland compositors"
+requires-python = ">=3.11"
+dependencies = [
+    "PyGObject",
+    "Pillow",
+    "pytesseract",
+    "ImageHash",
+]
+
+[project.scripts]
+wei-timer = "wei_timer.app:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["wei_timer*"]
