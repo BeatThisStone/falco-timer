@@ -1,6 +1,6 @@
 # Wei Timer
 
-A GTK4 based independent training timer detector and daily carat tracker for Umamusume.
+A GTK4 based independent training timer detector and daily carat tracker for Umamusume for Wayland and X11.
 
 The name Wei Timer (weitimer) comes from a portmaneau of "way" as in wayland and "wei", something a certain gen Z uma loves saying.
 
