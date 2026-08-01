@@ -36,9 +36,11 @@ rm -rf src pkg && makepkg -sif
 ### Linux (universal)
 
 **AppImage**
+
 Download `Wei_Timer-x.y.z-x86_64.AppImage` from the [latest release](https://github.com/lunauii/wei-timer/releases/latest) and run it.
 
 **pip (recommended)**
+
 Install `gtk4`, `libadwaita`, `python-gobject` (or your distro's equivalent, e.g. `libgtk-4-dev`/`gir1.2-adw-1` on Debian/Ubuntu, `gtk4-devel` on Fedora), `tesseract` with English language data, and `grim`+`slurp` via your distro's package manager.
 
 Then clone this repo and hook into a virtual environment and install the remaining packages:
@@ -87,7 +89,6 @@ Requires a tray host that implements the StatusNotifierItem protocol. Most moder
 
 - **No game-input automation anywhere**. This is *not* an auto-runner script. Wei Timer only serves to automate setting a timer and counting your daily carats.
 - **Not tested for GNOME**. While theoretically possible on paper with Screenshot Portal implementation tested on KDE Plasma, actual GNOME testing hasn't been carried out.
-- 
 
 ## Project layout
 
@@ -114,8 +115,8 @@ wei_timer/
 
 ## Attribution and AI Notice
 
-Default notification SFX by [Universfield](https://pixabay.com/users/universfield-28281460/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=493469) from [Pixabay](https://pixabay.com/sound-effects//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=493469)
-Metal pipe SFX: origin unconfirmed 
+Default notification SFX by [Universfield](https://pixabay.com/users/universfield-28281460/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=493469) from [Pixabay](https://pixabay.com/sound-effects//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=493469) \
+Metal pipe SFX: origin unconfirmed \
 Harikitte Ikou SFX: sourced from Umamusume
 
 This project's development was heavily assisted by a local LLM (Qwen3.5-9B) and Claude Sonnet 5 through OpenClaw and Claude Code.
