@@ -21,6 +21,7 @@ BUNDLED_SOUNDS = {
     "pop": "notif.mp3",
     "pipe": "metal_pipe.mp3",
     "harikitte ikou": "harikitte_ikou.mp3",
+    "matko": "bell.ogg",
 }
 DEFAULT_SOUND_KEY = "pop"
 

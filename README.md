@@ -1,10 +1,10 @@
-# Wei Timer
+# Falco Timer
 
 ![Wei Timer logo](packaging/wei-timer.png)
 
 A GTK4 based independent training timer detector and daily carat tracker for Umamusume for Wayland and X11.
 
-The name Wei Timer (weitimer) comes from a portmaneau of "way" as in wayland and "wei", something a certain gen Z uma loves saying.
+The name Falco Timer (weitimer) comes from a portmaneau of "way" as in wayland and "wei", something a certain gen Z uma loves saying.
 
 ## What it does
 

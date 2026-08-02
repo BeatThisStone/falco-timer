@@ -28,6 +28,7 @@ SOUND_LABELS = {
     "pop": "generic pop effect",
     "pipe": "metal pipe",
     "harikitte ikou": "harikitte ikou!",
+    "matko": "matko special",
 }
 # Order matters for the radio group: "No sound" listed above the default,
 # per the spec.
@@ -50,7 +51,7 @@ class MainWindow(Adw.ApplicationWindow):
         self.config: Config = load_config()
         self.env = detect_environment()
 
-        self.set_title("lunaui's Wei Timer")
+        self.set_title("lunaui's Falco Timer")
         self.set_default_size(self.config.window_width, self.config.window_height)
 
         self.toast_overlay = Adw.ToastOverlay()
